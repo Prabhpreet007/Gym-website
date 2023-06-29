@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="shortcut icon" href="finallogo.png" type="image/x-icon">
+    <style>
+        body{
+    background-color: rgba(255, 255, 255, 0.789);
+}
+.container{
+    background-color: rgb(222, 222, 222);
+    position: absolute;
+    left: 32%;
+    width: 450px;
+    height: 600px;
+    top: 45px;
+    text-align: center;
+    padding: 50px;
+}
+#inp{
+    width: 400px;
+    height: 20px;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(194, 250, 231);
+}
+.remember{
+    overflow: hidden;
+    text-align: left;   
+}
+.remember span a{
+    text-decoration: none;
+    color: red;
+}
+#btn{
+    background-color: rgb(84, 195, 158);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 70px;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+#social{
+    width: 135px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(66, 174, 241);
+    border: 0.5px solid rgb(255, 255, 255);
+    background-image: url('https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitter-square2-512.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    padding-left: 12px;
+}
+#social:hover{
+    background-color: rgb(18, 127, 235);
+}
+#social1{
+    width: 136px;
+    height: 42px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(65, 78, 152);
+    border: 0.5px solid rgb(255, 255, 255);
+    background-image: url('https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-square2-512.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    padding-left: 0px;
+}
+#social1:hover{
+    background-color: rgb(9, 78, 147);
+}
+#social2{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background-color: red;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-google-plus-square2-512.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+    color: rgb(255, 255, 255);
+    border: 0.5px solid rgb(255, 255, 255);
+    padding-left: 30px;
+}
+#btn12{
+    width: 125px;
+    height: 30px;
+    background-color: rgb(84, 195, 158);
+    border-radius: 5px;
+    color: white;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+#btn:hover{
+    background-color: rgba(12, 249, 150, 0.558);
+    /* color:  rgb(12, 249, 221); */
+}
+
+.instagram-btn {
+
+    background-color: #C13584;
+
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  border: 0.5px solid rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+.instagram-btn:hover{
+    background-color: #ff0894;
+}
+
+.instagram-btn i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.facebook-btn {
+  background-color: #3B5998;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+ text-decoration: none;
+  text-align: center;
+}
+.facebook-btn:hover{
+    background-color: #0e4acb;
+}
+
+.facebook-btn i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.twitter-btn {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+.twitter-btn:hover{
+    background-color: #0dbfe8;
+}
+
+.twitter-btn i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url("feedback2.jpg");
+    /* height: 800px;
+    width: 800px; */
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="POST" name="google-sheet">
+        <input type="number" placeholder="phone number" id="inp" name="Phonenumber">
+        <br>
+        <input type="email" name="pass" id="inp" placeholder="email" name="email">
+        <br><br>
+        <label for="time-input" style="margin-top: 10px;">Preferred contact time:</label>
+        <input type="time" id="time-input" name="time" >
+                <br>
+
+        <!-- <div class="remember">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="remember" id="chck">Remember Me
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+            <span>
+                <a href="#">Forgot Password?</a>
+            </span>
+        </div><br> -->
+        <br><br>
+        <button id="btn">Submit</button>
+    </form>
+
+        <hr>
+        <h3 >Call our experts!
+        </h3>
+        Prabhpreet Singh - 9996622863
+            <br><br>
+            Vasudev Rai - 8541264332
+        <br><br>
+        Madhu Panchal - 8574126935
+        <br><br>
+        <hr>
+        <h3 >Follow Us</h3>
+        
+        <br>
+        <!-- <button id="social">‎ ‎ Twitter</button> -->
+        <a href="https://www.twitter.com/your_username/">
+            <button class="twitter-btn">
+              <i class="fab fa-twitter"></i> Twitter
+            </button>
+          </a>
+          
+        <!-- <button id="social1">ㅤㅤFacebook</button> -->
+        <a href="https://www.facebook.com/prabhpreet.singh.923724?mibextid=LQQJ4d">
+            <button class="facebook-btn">
+              <i class="fab fa-facebook"></i> Facebook
+            </button>
+          </a>
+          
+        <a href="https://instagram.com/prabhpreettx?igshid=NTc4MTIwNjQ2YQ==">
+            <button class="instagram-btn">
+              <i class="fab fa-instagram"></i> Instagram
+            </button>
+          </a>
+                  <br><br><br><br>
+
+
+          
+    </div>
+    <script>
+        const scriptURL='https://script.google.com/macros/s/AKfycbx_RFcyd4YHAxxkdhUvPFO_jUc7fAXwVKWSUBkYnpuTyfwWrvVaMycyhtRF9ZPp1CKA/exec'
+        const form =document.forms['google-sheet']
+        form.addEventListener('Submit',e => {
+        e.preventDefault()
+        fetch(scriptURL,{method:'POST',body:new FormData(form)})
+        .then(response => alert("Thankyou! We will contact you at your preferred time"))
+        .catch(error => console.error('Error!',error.message))
+        })
+                    
+                    </script>
+</body>
+</html>

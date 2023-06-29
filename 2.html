@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us ~ Ignite Heaven</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kanit:wght@300&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="finallogo.png" type="image/x-icon">
+
+    <style>
+        body {
+            margin: 0;
+            padding-left: 15px;
+            /* padding-right: 35px; */
+            color: white;
+            background-color: black;
+            /* font-family: 'Bruno Ace SC', cursive; */
+            /* font-size: 20px; */
+
+
+
+        }
+
+        p {
+            text-shadow: 3px 3px black;
+            /* font-family: 'Bruno Ace SC', cursive; */
+            /* width: 950px; */
+
+        }
+
+        header::before {
+            background-image: url("luis-reyes-mTorQ9gFfOg-unsplash.jpg");
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.4;
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+        }
+
+        section {
+
+            height: 400px;
+            ;
+            width: 1500px;
+            display: flex;
+            margin: 0px 0px;
+            margin-right: 10px;
+            flex-direction: column;
+            align-items: center;
+            /* border: 2px solid red; */
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 30px;
+            margin-top: 270px;
+            padding: 24px;
+            font-family: 'Bruno Ace SC', cursive;
+
+
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            width: 1400px;
+            margin-right: 15px;
+        }
+        .transition-text {
+                opacity: 0;
+                transition: opacity 1.5s ease-in-out;
+            }
+            .transition-text.visible {
+                opacity: 1;
+            }
+            .slide-in {
+        transform: translateX(-100%);
+        transition: transform 2.0s ease-in-out;
+      }
+      
+      .slide-in.active {
+        transform: translateX(0%);
+      }
+      .left {
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        display: inline-block;
+        color: rgb(246, 248, 247);
+        font-size: 10px;
+        font-family: 'M PLUS 1p', sans-serif;
+
+    }
+
+    .mid {
+        display: block;
+        width: 661px;
+        margin: 0px ;
+        color: antiquewhite;
+        margin-left: 381px;
+
+    }
+
+    .right {
+        position: absolute;
+        top: 20px;
+        right: 9px;
+        display: inline-block;
+        color: wheat;
+
+    }
+
+    .navbar {
+        color: aliceblue;
+        display: inline-block;
+        margin-left: 55px;
+        margin-top: 35px;
+    }
+
+    .navbar li {
+        color: aliceblue;
+        display: inline-block;
+        font-size: 17px;
+
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        padding: 25px 23px;
+        text-decoration: none;
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(156, 153, 153);
+    }
+
+    .left img {
+        filter: invert(100%);
+        position: relative;
+        top: 0px;
+        left: 4px;
+    }
+
+    .btn {
+        margin: 14px 6px;
+        color: black;
+        background-color: white;
+        padding: 3px 8px;
+        border: 2px solid grey;
+        border-radius: 7px;
+        font-size: 1Epx;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .btn a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+    nav ul li:nth-child(2) {
+  position: relative;
+}
+
+nav ul li:nth-child(2) img {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  padding: 1px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+nav ul li:nth-child(2):hover img {
+  display: block;
+}
+nav ul li:nth-child(1) {
+  position: relative;
+}
+
+nav ul li:nth-child(1) img {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  padding: 1px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+nav ul li:nth-child(1):hover img {
+  display: block;
+}
+nav ul li:nth-child(3) {
+  position: relative;
+}
+
+nav ul li:nth-child(3) img {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  padding: 1px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+nav ul li:nth-child(3):hover img {
+  display: block;
+}
+nav ul li:nth-child(4) {
+  position: relative;
+}
+
+nav ul li:nth-child(4) img {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  padding: 1px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+nav ul li:nth-child(4):hover img {
+  display: block;
+}
+
+nav ul li:nth-child(5) {
+  position: relative;
+}
+
+nav ul li:nth-child(5) img {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  padding: 1px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+nav ul li:nth-child(5):hover img {
+  display: block;
+}
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="right">
+            <button class="btn"><a href="contact_us.html" target=_blank> Contact Us</button></a>
+            <button class="btn"> <a href="mailto:prabhpreet694@gmail.com">Email Us</a></button>
+
+
+
+
+
+        </div>
+        <div class="left"><img src="finallogo.png" alt="" width="60px"> 
+            <div>Ignite Heaven</div>
+        </div>
+        <div class="mid">
+            <nav>
+            <ul class="navbar">
+              <li><a href="index.html" target="_blank">Home</a><img src="homess.jpg" alt="home"></li>
+              <li><a href="2.html" target="_blank">About Us</a><img src="aboutusss.jpg" alt="aboutus"></li>
+                <li><a href="our_team.html" target="_blank">Our Team</a><img src="ourteamss.jpg" alt="ourteam"></li>
+                <li><a href="program2.html" target="_blank">Program</a><img src="home.png" alt="program"></li>
+                <li><a href="https://goo.gl/maps/PfpZkkYHoV9yYGeA8" target="_blank">Locate Us</a><img src="locateus.jpg" alt="locateus"></li>
+
+                <!-- <li><a href="#">Location</a></li> -->
+
+            </ul>
+        </nav>
+        </div>
+
+    <section>
+        <h1 class="transition-text">Ignite Heaven</h1>
+        <p class="slide-in">Welcome to our gym's "About Us" page! We are thrilled to have the opportunity to share our story with you.
+
+            Our gym was founded with a passion for fitness and a desire to create a welcoming and supportive environment
+            for
+            everyone who walks through our doors. We believe that fitness is not just about physical health, but also
+            mental
+            well-being and community.<br><br>
+
+            Our gym was founded with the idea of creating a supportive and inclusive environment for people of all ages,
+            abilities, and fitness levels. Our team of experienced trainers is passionate about helping you succeed in
+            your
+            fitness journey and is committed to providing personalized support and guidance every step of the way.
+
+            We offer a wide range of fitness programs and classes, including strength training, cardio, yoga, and
+            functional
+            training, to help you achieve your goals and stay motivated. We also have state-of-the-art equipment and
+            facilities
+            to ensure that you get the most out of your workouts.<br><br>
+
+            Our team of experienced and certified trainers are dedicated to helping you reach your fitness goals,
+            whether you
+            are a seasoned athlete or just starting out. We offer a variety of classes and training programs to suit
+            your needs
+            and interests, including strength training, cardio, yoga, and more.<br><br>
+
+            At our gym, we believe that fitness should be fun and enjoyable. We strive to create a positive and
+            inclusive
+            atmosphere where everyone feels welcome and supported. Whether you are looking to build muscle, lose weight,
+            or
+            simply improve your overall health, we are here to help you every step of the way.<br><br>
+
+            Our gym is more than just a place to work out – it's a community of people who share a passion for living
+            life to the fullest. We believe that fitness is not just about looking good or feeling strong – it's about
+            discovering your true potential and unleashing the best version of yourself. Whether you're a seasoned
+            athlete or a first-time gym-goer, we're here to help you push past your limits and achieve your dreams. With
+            a team of dedicated trainers, state-of-the-art equipment, and a supportive community of fellow fitness
+            enthusiasts, our gym is the perfect place to start your journey to greatness. <br><br>
+            So why wait? Join us today and
+            start living your best life – one rep at a time!<br><br></p>
+    </section>
+    <script>
+        var debounceTimer;
+        function addVisibleClass() {
+            var element = document.querySelector('.transition-text');
+            var elementPosition = element.getBoundingClientRect().top;
+            var windowHeight = window.innerHeight;
+            var threshold = 0.8; // adjust threshold to start fade-in effect earlier
+            if (elementPosition < windowHeight * threshold) {
+                element.classList.add('visible');
+                window.removeEventListener('scroll', addVisibleClass); // remove scroll event listener once element is visible
+            }
+        }
+        function debounce(func, delay) {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(func, delay);
+        }
+        window.addEventListener('scroll', function() {
+            debounce(addVisibleClass, 10); // debounce scroll event to reduce function calls
+        });
+        window.addEventListener('resize', function() {
+            debounce(addVisibleClass, 10); // debounce resize event to reduce function calls
+        });
+        addVisibleClass(); // check if element is already visible on page load
+    </script>
+    <script>
+        window.onload = function() {
+        var slideIn = document.querySelector('.slide-in');
+        slideIn.classList.add('active');
+      }
+    </script>
+
+</body>
+
+</html>
